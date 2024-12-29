@@ -193,45 +193,10 @@ I am a full stack developer. I am open to work. If you are looking for a develop
 	<tbody>
 		<tr>
             <td align="center">
-                <a href="https://github.com/mubaidr">
-                    <img src="https://avatars.githubusercontent.com/u/2222702?v=4" width="100;" alt="mubaidr"/>
+                <a href="https://github.com/DarjeelingFu">
+                    <img src="https://avatars.githubusercontent.com/u/57053832?v=4" width="100;" alt="DarjeelingFu"/>
                     <br />
-                    <sub><b>Muhammad Ubaid Raza</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/baramofme">
-                    <img src="https://avatars.githubusercontent.com/u/44565599?v=4" width="100;" alt="baramofme"/>
-                    <br />
-                    <sub><b>Jihoon Yi</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/poncianodiego">
-                    <img src="https://avatars.githubusercontent.com/u/20716004?v=4" width="100;" alt="poncianodiego"/>
-                    <br />
-                    <sub><b>Diego Ponciano</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/IgorFZ">
-                    <img src="https://avatars.githubusercontent.com/u/85708187?v=4" width="100;" alt="IgorFZ"/>
-                    <br />
-                    <sub><b>igorfz</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/hi2code">
-                    <img src="https://avatars.githubusercontent.com/u/51270649?v=4" width="100;" alt="hi2code"/>
-                    <br />
-                    <sub><b>hi2code</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/justorez">
-                    <img src="https://avatars.githubusercontent.com/u/17308328?v=4" width="100;" alt="justorez"/>
-                    <br />
-                    <sub><b>Null</b></sub>
+                    <sub><b>blessingrain</b></sub>
                 </a>
             </td>
 		</tr>
