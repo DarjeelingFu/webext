@@ -14,13 +14,10 @@ declare module 'vue' {
     IPhDotsThreeVertical: typeof import('~icons/ph/dots-three-vertical')['default']
     IPhGear: typeof import('~icons/ph/gear')['default']
     IPhGlobe: typeof import('~icons/ph/globe')['default']
-    IPhListHeart: typeof import('~icons/ph/list-heart')['default']
     IPhMinus: typeof import('~icons/ph/minus')['default']
     IPhMoon: typeof import('~icons/ph/moon')['default']
     IPhPlus: typeof import('~icons/ph/plus')['default']
-    IPhPresentationChart: typeof import('~icons/ph/presentation-chart')['default']
     IPhQuestion: typeof import('~icons/ph/question')['default']
-    IPhRocketLaunch: typeof import('~icons/ph/rocket-launch')['default']
     IPhSun: typeof import('~icons/ph/sun')['default']
     LoadingSpinner: typeof import('./../components/state/LoadingSpinner.vue')['default']
     LocaleSwitch: typeof import('./../components/LocaleSwitch.vue')['default']
@@ -30,5 +27,9 @@ declare module 'vue' {
     TailwindEmptyState: typeof import('./../components/state/tailwind-empty-state.vue')['default']
     TestComponent: typeof import('./../components/TestComponent.vue')['default']
     ThemeSwitch: typeof import('./../components/ThemeSwitch.vue')['default']
+    WebnotesNoteUploader: typeof import('./../components/webnotes/NoteUploader.vue')['default']
+    WebnotesNoteWritter: typeof import('./../components/webnotes/NoteWritter.vue')['default']
+    WebnotesTagSelector: typeof import('./../components/webnotes/TagSelector.vue')['default']
+    WebnotesTreeSelector: typeof import('./../components/webnotes/TreeSelector.vue')['default']
   }
 }

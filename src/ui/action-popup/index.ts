@@ -5,6 +5,8 @@ import { appRouter } from "@/utils/router"
 import { createApp } from "vue"
 import App from "./app.vue"
 import "./index.scss"
+import PrimeVue from 'primevue/config';
+import Aura from '@primevue/themes/aura';
 
 appRouter.addRoute({
   path: "/",
@@ -19,7 +21,7 @@ appRouter.addRoute({
 //   next()
 // })
 
-const app = createApp(App).use(i18n).use(notivue).use(pinia).use(appRouter)
+const app = createApp(App).use(i18n).use(notivue).use(pinia).use(appRouter).use(PrimeVue, {theme: {preset: Aura }})
 
 app.mount("#app")
 

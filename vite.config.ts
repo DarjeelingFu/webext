@@ -54,6 +54,10 @@ export default defineConfig({
             return content
           }
 
+          // if (filePath.includes("action-popup/index.scss")) {
+          //   return `@use "/src/assets/myBase.scss";\n${content}`
+          // }
+
           return `@use "/src/assets/base.scss";\n${content}`
         },
       },

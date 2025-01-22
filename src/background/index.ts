@@ -35,3 +35,20 @@ self.onerror = function (message, source, lineno, colno, error) {
 console.info("hello world from background")
 
 export {}
+
+// to find the windowId of the active tab
+let windowId: number
+chrome.tabs.onActivated.addListener(function (activeInfo) {
+  windowId = activeInfo.windowId
+})
+
+// to receive messages for opening the side panel
+chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  (async () => {
+    if (message.action === 'openSidePanel') {
+      chrome.sidePanel.open({ windowId: windowId })
+    }
+    sendResponse();
+  })();
+  return true;
+})

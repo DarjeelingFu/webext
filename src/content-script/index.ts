@@ -9,7 +9,7 @@ const iframe = new DOMParser().parseFromString(
 ).body.firstElementChild
 
 if (iframe) {
-  document.body?.append(iframe)
+  // document.body?.append(iframe)
 }
 
 self.onerror = function (message, source, lineno, colno, error) {
